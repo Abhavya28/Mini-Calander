@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+    padding-top: 60px;
+    flex-shrink: 0;
+    font-size: 40px;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px; 
+    box-sizing: border-box;
+}
+
+.calender{
+    width: 550px;
+    height: 350px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.left, .right{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-direction: column;
+}
+.right{
+    width: 45%;
+    background-color: black;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 50px;
+}
+.left{
+    font-size: 50px;
+    background-color: #fff;
+    width: 55%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#date{
+    font-size: 100px;
+    line-height: 90px;
+}
